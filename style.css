@@ -9,3 +9,7 @@ html, body {
 h2, body {
   margin: 0px;
 }
+div {
+  padding:20px;
+  text-align: center;
+}
