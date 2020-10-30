@@ -11,3 +11,6 @@ var dKeyPressed;
 var wKeyPressed;
 var enemyArray = [];
 var canvasObject = document.getElementById("myCanvas")
+var canvasSurface = canvasObject.getContext("2d");
+canvasSurface.canvas.width  = window.innerWidth;
+canvasSurface.canvas.height = window.innerHeight;
